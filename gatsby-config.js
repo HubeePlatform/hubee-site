@@ -11,23 +11,23 @@ module.exports = {
     author: {
       name: ``,
     },
-    description: `Hubee Platform.`,
+    description: `Hubee Tech`,
 
     /* Choose and arrange the sections to be displayed on the landing page */
     sections: [
       `hero`,
-      // `features`,
+      `features`,
       // `pricing`,
       // `call-to-action`,
-      `screenshots`,
+      // `screenshots`,
       // `testimonials`,
     ],
 
     /* Configure the navigation menu */
     menuItems: [
-      // { path: "features", label: "Recursos" },
+      { path: "features", label: "Recursos" },
       // { path: "pricing", label: "Pricing" },
-      { path: "screenshots", label: "Screenshots" },
+      // { path: "screenshots", label: "Imagens" },
       // { path: "testimonials", label: "Testimonials" },
     ],
 
@@ -42,19 +42,19 @@ module.exports = {
 
     /* Path to favicon and logo (located inside the 'static' folder) */
     favicon: `favicon.png`,
-    logo: `/images/hubee-logo.png`,
+    logo: `/images/hubee-mono.svg`,
 
     /* Logo and text to show in footer */
     footer: {
-      logo: `/images/hubee-logo.png`,
-      text: `This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.`,
+      logo: `/images/hubee-mono.svg`,
+      text: ` A perfeita conexão entre plataforma, tecnologia e facilidade de uso para fazer o seu varejo decolar.`,
     },
 
     /* Address and contact info to show in footer */
     address: {
       line1: `Av. Pref. Hércules Pereira Hortal, 1367, SL 02 – Centro`,
       line2: `Bebedouro – SP`,
-      line3: `Cep: 14701-210`,
+      line3: `CEP: 14701-210`,
     },
     contacts: [
       { text: `(17) 99142-7724`, url: `tel:17991427724` },

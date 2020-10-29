@@ -1,13 +1,13 @@
-headline: The perfect template to showcase your awesome product and service.
+headline: A perfeita conexão entre plataforma, tecnologia e facilidade de uso para fazer o seu varejo decolar.
 
-body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
+body: A plataforma que nasce na nuvem com implantação e uso simplificado, entregando a melhor experiência na gestão do seu negócio.
 
-button1:
-  label: Free Trial
-  to: '/#'
+# button1:
+#   label: Teste grátis
+#   to: '/#'
 
-button2:
-  label: Learn More
-  to: '/#features'
+# button2:
+#   label: Saiba Mais
+#   to: '/#features'
 
 image: images/hero-image.png
