@@ -78,7 +78,7 @@ module.exports = {
         zendeskKey: 'f51c4547-5eb5-4a7d-9af3-f16c3a7f700b',
         enableDuringDevelop: false, // Optional. Disables Zendesk chat widget when running Gatsby dev server. Defaults to true.
       },
-    }
+    },
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-smoothscroll`,
     `react-scrollspy`,
