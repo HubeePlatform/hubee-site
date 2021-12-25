@@ -76,7 +76,13 @@ module.exports = {
       resolve: 'gatsby-plugin-zendesk-chat',
       options: {
         zendeskKey: 'f51c4547-5eb5-4a7d-9af3-f16c3a7f700b',
-        enableDuringDevelop: false, // Optional. Disables Zendesk chat widget when running Gatsby dev server. Defaults to true.
+        enableDuringDevelop: true, // Optional. Disables Zendesk chat widget when running Gatsby dev server. Defaults to true.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-load-script",
+      options: {
+        src: "/static.js",
       },
     },
     `gatsby-plugin-anchor-links`,
