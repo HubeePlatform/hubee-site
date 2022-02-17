@@ -506,6 +506,53 @@ ul.features li:nth-child(even) { }
 	color: #A9B5C0;
 }
 
+/* ------------------------------------------------------------------
+/* h. Vagas
+/* ------------------------------------------------------------------ */
+
+#vagas {
+   background: #23292F;
+   padding-top: 72px;
+   padding-bottom: 48px;
+}
+#vagas h1 {
+   font: bold 18px/24px 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#vagas h1 span { display: none; }
+#vagas .header-col h1 svg {
+  padding-right: 18px;
+	padding-top: 6px;
+	font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+  float: right;
+  color: #EBEEEE;
+}
+#vagas .action { margin-top: 18px; }
+#vagas .action .button { text-align: center; }
+#vagas h2 {
+   font: bold 28px/36px 'Montserrat', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 12px;
+}
+#vagas h2 a {
+   color: inherit;
+}
+#vagas p {
+   color: #697B8B;
+   font-size: 17px;
+   padding-right: 5px;
+}
+#vagas p span {
+	font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+	color: #A9B5C0;
+}
+
+
 
 /* ------------------------------------------------------------------
 /* h. Testimonials

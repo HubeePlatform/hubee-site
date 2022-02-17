@@ -6,6 +6,7 @@ import Hero from "../components/hero"
 import Features from "../components/features"
 import Pricing from "../components/pricing"
 import CalltoAction from "../components/call-to-action"
+import Vagas from '../components/vagas'
 import Screenshots from "../components/screenshots"
 import Testimonials from "../components/testimonials"
 import Subscribe from "../components/subscribe"
@@ -21,7 +22,8 @@ export default () => {
     "call-to-action": CalltoAction,
     "screenshots": Screenshots,
     "testimonials": Testimonials,
-    "subscribe": Subscribe
+    "subscribe": Subscribe,
+    "vagas": Vagas
   }
 
   return(

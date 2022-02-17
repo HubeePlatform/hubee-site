@@ -18,7 +18,7 @@ module.exports = {
       `hero`,
       `features`,
       // `pricing`,
-      // `call-to-action`,
+      `vagas`,
       // `screenshots`,
       // `testimonials`,
     ],
@@ -26,7 +26,7 @@ module.exports = {
     /* Configure the navigation menu */
     menuItems: [
       { path: "features", label: "Recursos" },
-      // { path: "pricing", label: "Pricing" },
+      { path: "vagas", label: "Vagas" },
       // { path: "screenshots", label: "Imagens" },
       // { path: "testimonials", label: "Testimonials" },
     ],
@@ -38,6 +38,12 @@ module.exports = {
         url: `https://github.com/hubeeplatform`,
         fa: `github`,
       },
+      {
+        service: `Instagram`,
+        url: `https://www.instagram.com/hubee.tech/`,
+        fa: `instagram`,
+      },
+
     ],
 
     /* Path to favicon and logo (located inside the 'static' folder) */

@@ -1,10 +1,10 @@
 import React from "react"
-import content from "../../content/call-to-action.yaml"
+import content from "../../content/vagas.yaml"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLayerGroup } from '@fortawesome/free-solid-svg-icons'
 
 export default () => (
-  <section id="call-to-action">
+  <section id="vagas">
     <div className="row">
       <div className="two columns header-col">
         <h1><FontAwesomeIcon icon={faLayerGroup} /><span>Time.</span></h1>
